@@ -1,2 +1,2 @@
-# ISM2017
-source code and datasets for ISM2017
+# VCIP2017
+source code and datasets for VCIP2017
