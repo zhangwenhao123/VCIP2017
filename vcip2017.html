@@ -3,7 +3,7 @@
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/project_template.dwt" codeOutsideHTMLIsLocked="false" --><!-- the above lines are very important to use CSS in order to have same appearance--><!-- General Header (ver.2) -->
 <HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<TITLE>ISM2017</TITLE>
+	<TITLE>VCIP2017</TITLE>
     <LINK href="./main.css" rel="stylesheet" type="text/css">
 	
 	<!--<script>
@@ -29,13 +29,13 @@
  <TABLE width="950" border="0">
    <TBODY>
      <TR>
-       <TD colspan="3"><DIV align="center"><STRONG>ISM2017 - The 19th IEEE International Symposium on Multimedia</STRONG></DIV></TD>
+       <TD colspan="3"><DIV align="center"><STRONG>VCIP 2017 : Visual Communications and Image Processing</STRONG></DIV></TD>
      </TR>
      <TR>
        <TD colspan="3">&nbsp;</TD>
      </TR>
      <TR>
-       <TD colspan="3"><DIV align="center" class="xlarge">Underwater Image Enhancement By Dehazing and Color Correction</DIV></TD>
+       <TD colspan="3"><DIV align="center" class="xlarge">A New Underwater Image Enhancing Method via Color Correction and Illumination Adjustment</DIV></TD>
      </TR>
    </TBODY>
  </TABLE>
@@ -68,23 +68,19 @@
  </TABLE> -->
 
 <div align = "center">
-<div class="authorname" style="font-size:large;line-adjust:0">Wenhao Zhang<sup>1*</sup>, Ge Li<sup>1</sup>, Zhenqiang Ying<sup>1</sup>, Xiaoqiang Guo<sup>2</sup></div>
-<div class="authoraddress" style="line-adjust:0"><sup>1</sup>School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, Shenzhen, China <br /> <sup>2</sup>Academy of Broadcasting Science, SAPPRFT, Beijing, China</div>
+<div class="authorname" style="font-size:large;line-adjust:0">Wenhao Zhang<sup>1*</sup>, Ge Li<sup>1</sup>, Zhenqiang Ying<sup>1</sup></div>
+<div class="authoraddress" style="line-adjust:0"><sup>1</sup>School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, Shenzhen, China</div>
 <div class="authoremail email" style="line-adjust:0">*1601214037@sz.pku.edu.cn</div>
 
 <br/>
-<a href="https://github.com/zhangwenhao123/ISM2017">Source Code Available</a>
+<a href="https://github.com/zhangwenhao123/VCIP2017">Source Code Available</a>
 </div>
 <br>
  
 <figure align = "center">
-<IMG src="./images/ism2017_framework.png" width=700> <!-- 850 -->
+<IMG src="./images/flow_chart.png" width=300> <!-- 850 -->
 <br>
 <figcaption>Our Framework.</figcaption>
-
-
-
-
 </figure>
  
 <br><br>
@@ -97,54 +93,11 @@
     </TR>
     <TR>
 		<TD width="10"></TD>
-        <TD width="400"><div align="justify">Underwater image processing is a difficult topic in the field since the environment of underwater is complicated. The major difficulty is that a captured image is fuzzy, under-exposed and has the color cast since the light is absorbed and scattered. To overcome those difficulties, we propose a new underwater image enhancement method, which is composed of an underwater image dehazing algorithm and a color correction algorithm. Based on the dark channel prior and the characteristic of light propagation under water, we propose a new dehazing algorithm to restore the visibility of degraded underwater images, through building up the relationship of the transmission rates among three color channels. To further improve the quality, we propose a simple yet effective color correction method to solve the color cast of the obtained haze-free underwater images. Experimental results show that our method can improve upon several existing methods in both subjective and objective tests.</div>
+        <TD width="400"><div align="justify">Since the light will be absorbed and scattered when travels in water, underwater imaging exists three major difficulties, including color cast, under-exposure, and fuzz. The solutions to overcome those issues are important for the exploration of the ocean. In this paper, we propose a new algorithm for improving the quality of underwater images. The algorithm is composed of two components: color correction and illumination adjustment. First, we use an efficient color enhancement method to solve the color cast. Then, based on Retinex model, we make the illumination adjustment, mainly extracting the illumination map and implementing gamma correction on it successively. Experimental results show that visual performance of our method outperforms that of other methods, and processing complexity is relatively simpler.</div>
 		</TD>
     </TR>
 	</TBODY>
 </TABLE>
-
-<!-- <br>
-<TABLE>
-	<TBODY>
-    <TR>
-		<TD width="75">&nbsp;</TD>
-        <TD>
-		<PRE>@inproceedings{Kwon:2015:TPAMI<BR> author = {Younghee Kwon and Kwang In Kim and James Tompkin and Jin Hyung Kim and Christian Theobalt},<BR> title = {Efficient Learning of Image Super-resolution and Compression Artifact Removal<BR>		  with Semi-local {Gaussian} Processes},<BR> booktitle = {IEEE Transactions on Pattern Analysis and Machine Intelligence},<BR> volume = {37},<BR> number = {9},<BR> pages = {1792--1805},<BR> year = {2015}<BR>}</PRE>
-		</TD>
-    </TR>
-  </TBODY>
-</TABLE>	 -->
-
-<!-- <br>
-<TABLE>
-	<TBODY>
-	<TR>
-		<TD>
-		 <TABLE border="0" align="center">
-		 <TBODY>
-			<TR>
-				<TD width="250"></TD>
-				<TD align="center" valign="middle"><A href="./EfficientLearning-basedImageEnhancement_TPAMI2014_Paper.pdf" target="_self"><IMG src="./paper_thumbnail.png" BORDER=0 ></A></TD>
-				<TD width="130"></TD>
-				<TD>&nbsp;&nbsp;&nbsp;<A href="./EfficientLearning-basedImageEnhancement_TPAMI2014_Supplemental.pdf" target="_self"><IMG src="./supplemental_thumbnail.png" BORDER=0 ></A></TD>
-			</TR>
-			<TR>
-				<TD width="55"></TD>
-				<TD align="center" valign="top">
-				Paper<BR>
-				<A href="./EfficientLearning-basedImageEnhancement_TPAMI2014_Paper.pdf" target="_self">PDF (3 MB)</A>
-				</TD>
-				<TD width="130">&nbsp;</TD>
-				<TD align="center" valign="top">
-				Supplemental Material<BR>
-				<A href="./EfficientLearning-basedImageEnhancement_TPAMI2014_Supplemental.pdf" target="_self">PDF (32 MB)</A>
-				</TD>
-			</TR>
-		 </TBODY>
-		 </TABLE>
-		</TD>
-	</TR>
-</TABLE> -->
 
 <br><br><hr width='920'><br><br>
 
@@ -152,159 +105,20 @@
   <TBODY>
 	<TR>
 		<TD width="10"></TD>
-		<TD class="large">Comparison Results </TD>
+		<TD class="large">Results Display </TD>
     </TR>
 	</TBODY>
 </TABLE>
 
 <br><br>
 
-<div id="NASA"></div>
-<!--
-<hr width='920'><br><br>
-
-<TABLE width="910" border="0">
-  <TBODY>
-	<TR>
-		<TD width="10"></TD>
-		<TD class="large">Comparison Results (NPE Dataset)</TD>
-    </TR>
-	</TBODY>
-</TABLE>
-
+<figure align = "center">
+<IMG src="./images/result.png" width=500> <!-- 850 -->
 <br><br>
+<figcaption><B>Top Row:</B> Three raw underwater images. <B>Bottom Row:</B> The enhanced results by our method.</figcaption>
+</figure> 
 
-<div id="NPE"></div>
--->
 
-<script language="javascript" type=text/javascript>
-function switchImage( divElement, imageURL )
-{
-	document.getElementById( divElement ).src = imageURL;
-}
-var nComps = 0;	
-function addComparisonSet( images, names, pad, width, attachDiv, suppressSpaceAfter, downside )
-{
-	var imageset = "imageset" + nComps;
-	var fieldset = "field" + nComps;
-	var formset = "form" + nComps;
-	
-	var img = "<img id='" + imageset + "' src='" + images[0] + "'>";
-	var html;
-	if(downside){
-		html = "<TABLE width='910' align='center' border='0'><TBODY><TR><TD align='center'>"+ img +"</TD></TR><TD align='center'>";
-	}
-	else{
-		html = "<TABLE width='910' border='0'><TBODY><TR><TD width='" + pad + "'></TD><TD width='" + width + "'>"+ img +"</TD><TD width='30'></TD><TD>";
-	}
-	var form = "<form name='" + formset + "'>";
-	
-	for( var i = 0; i < images.length; i++ )
-	{
-		var checked = "";
-		if( i == 0 )
-		{
-			checked = " checked";
-		}
-		
-		form += "<input type='radio' name='" + fieldset + "' value='" + i + "' onchange=\'switchImage( \"" + imageset + "\", \"" + images[i] + "\" )\'" + checked + ">" + names[i];
-		if (! downside){
-			form += "<br/>";
-		}
-	}
-	// If you want a horizontal line separating the items:
-	//html += "</form></TD></TR></TBODY></TABLE><br><hr width='920'><br>";
-	// If not:
-	form += "</form>";
-	if(downside){
-		html += form + "</TD></TBODY></TABLE>";
-	}
-	else{
-		html += form + "</TD></TR></TBODY></TABLE>";
-	}
-	
-	if( !suppressSpaceAfter )
-	{
-		html += "<br><br>";
-	}
-	nComps++;
-	// Add set to document
-	var tab = document.createElement("DIV");
-	tab.setAttribute('align', 'center');
-	// tab.setAttribute('style', 'display:inline');
-	// display:inline; style="display:inline-block"
-	tab.innerHTML = html;
-	document.getElementById(attachDiv).appendChild( tab );
-}
-// Define comparison sets...
-var names = ["Original",
-				"HE",
-				"SID",
-				"DCP",
-				"Fu",
-				"New_optical",
-				"Ours"
-			];
-var images3 = [ "./images/6.jpg",
-				"./images/6__he1.PNG",
-				"./images/6__sid.PNG",
-				"./images/6__dcp.PNG",
-				"./images/6__fu.PNG",
-				"./images/6__new_optical.PNG",
-				"./images/6__ism.PNG",
-				];
-var images4 = [ "./images/reef3.jpg",
-				"./images/reef3__he1.PNG",
-				"./images/reef3__sid.PNG",
-				"./images/reef3__dcp.PNG",
-				"./images/reef3__fu.PNG",
-				"./images/reef3__new_optical.PNG",
-				"./images/reef3__ism.PNG",
-				];
-var images15 = ["./images/Ancuti3.png",
-				"./images/Ancuti3__he1.PNG",
-				"./images/Ancuti3__sid.PNG",
-				"./images/Ancuti3__dcp.PNG",
-				"./images/Ancuti3__fu.PNG",
-				"./images/Ancuti3__new_optical.PNG",
-				"./images/Ancuti3__ism.PNG",
-				];
-var images17 = ["./images/Li et al.bmp",
-				"./images/Li et al__he1.PNG",
-				"./images/Li et al__sid.PNG",
-				"./images/Li et al__dcp.PNG",
-				"./images/Li et al__fu.PNG",
-				"./images/Li et al__new_optical.PNG",
-				"./images/Li et al__ism.PNG",
-				];
-var images22 = ["./images/Bali2.JPG",
-				"./images/Bali2__he1.PNG",
-				"./images/Bali2__sid.PNG",
-				"./images/Bali2__dcp.PNG",
-				"./images/Bali2__fu.PNG",
-				"./images/Bali2__new_optical.PNG",
-				"./images/Bali2__ism.PNG",
-				];
-
-// Define more comparison sets...
-// var images2 ....
-// var names2 ...	
-// Add comparison set to document
-addComparisonSet( images3, names, 250, 100,  "NASA");
-addComparisonSet( images4, names, 250, 100,  "NASA");
-addComparisonSet( images15, names, 250, 100, "NASA");
-addComparisonSet( images17, names, 250, 100, "NASA");
-addComparisonSet( images22, names, 200, 100, "NASA");
-//addComparisonSet( images23, names, 200, 100, "NASA");
-//
-// Add more comparison sets to document
-//addComparisonSet( images1, names, 50, 10, "NPE");
-//addComparisonSet( images1_1, names, 50, 10, "NPE", false, true);
-//addComparisonSet( images2, names, 50, 10, "NPE" , false, true);
-// var tab = document.createElement("DIV");
-// tab.innerHTML = "<TABLE><TBODY><TD width='50'/><TD><a href=http://nuit-blanche.blogspot.com/2012/03/let-there-be-only-one-fabio.html?m=1 target='_blank'>Redress the Lena imbalance!</a> Unfortunately discovered only after TPAMI had finalized the paper.</TD></TBODY></TABLE><br><br>";
-// var el = document.getElementById("SupResAppendPoint").appendChild( tab );
-</script>
 
 <hr width='920'><br><br>
 
