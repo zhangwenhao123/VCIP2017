@@ -3,9 +3,9 @@
 
 A New Underwater Image Enhancing Method via Color Correction and Illumination Adjustment
 ======================================================================
-Wenhao Zhang1, Ge Li1, Zhenqiang Ying1
+Wenhao Zhang, Ge Li, Zhenqiang Ying
 
-1School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, Shenzhen, China 
+School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, Shenzhen, China 
 
 WebPage
  ======================================================================
