@@ -15,7 +15,7 @@ Code
  ======================================================================
 How to use:
 
-run vcip.m to choose one raw underwater image to get the enhanced result
+run vcip.p to choose one raw underwater image to get the enhanced result
 
 If you use our codes,please cite this paper!
 
