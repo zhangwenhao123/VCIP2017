@@ -21,8 +21,15 @@ If you use our codes,please cite this paper!
 
 If you have any question,please email us!
 
+Cite Format
+================
+W. Zhang, G. Li and Z. Ying, et al. A new underwater image enhancing method via color correction and illumination
+adjustment[C]//Visual Communications and Image Processing (VCIP), 2017. IEEE, 2017: 1-4.
+
 Contacts
 ================
 Email: 1601214037@sz.pku.edu.cn
 
 Thank you! 
+
+
