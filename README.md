@@ -15,7 +15,7 @@ Code
  ======================================================================
 How to use:
 
-run vcip.p to choose one raw underwater image to get the enhanced result
+run vcip.m to choose one raw underwater image to get the enhanced result
 
 If you use our codes,please cite this paper!
 
@@ -25,6 +25,15 @@ Cite Format
 ================
 W. Zhang, G. Li and Z. Ying, et al. A new underwater image enhancing method via color correction and illumination
 adjustment[C]//Visual Communications and Image Processing (VCIP), 2017. IEEE, 2017: 1-4.
+
+@INPROCEEDINGS{8305027, 
+author={W. Zhang and G. Li and Z. Ying}, 
+booktitle={2017 IEEE Visual Communications and Image Processing (VCIP)}, 
+title={A new underwater image enhancing method via color correction and illumination adjustment}, 
+year={2017},  
+pages={1-4}, 
+doi={10.1109/VCIP.2017.8305027},
+}
 
 Contacts
 ================
