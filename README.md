@@ -23,17 +23,17 @@ If you have any question,please email us!
 
 Cite Format
 ================
-W. Zhang, G. Li and Z. Ying, et al. A new underwater image enhancing method via color correction and illumination
-adjustment[C]//Visual Communications and Image Processing (VCIP), 2017. IEEE, 2017: 1-4.
+Zhang W, Li G, Ying Z. A new underwater image enhancing method via color correction and illumination adjustment[C]//Visual Communications and Image Processing (VCIP), 2017 IEEE. IEEE, 2017: 1-4.
 
-@INPROCEEDINGS{8305027, 
-author={W. Zhang and G. Li and Z. Ying}, 
-booktitle={2017 IEEE Visual Communications and Image Processing (VCIP)}, 
-title={A new underwater image enhancing method via color correction and illumination adjustment}, 
-year={2017},  
-pages={1-4}, 
-doi={10.1109/VCIP.2017.8305027},
+@inproceedings{zhang2017new,
+  title={A new underwater image enhancing method via color correction and illumination adjustment},
+  author={Zhang, Wenhao and Li, Ge and Ying, Zhenqiang},
+  booktitle={Visual Communications and Image Processing (VCIP), 2017 IEEE},
+  pages={1--4},
+  year={2017},
+  organization={IEEE}
 }
+
 
 Contacts
 ================
